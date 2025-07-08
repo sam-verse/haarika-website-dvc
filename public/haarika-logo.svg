@@ -1,0 +1,6 @@
+<svg width="180" height="180" viewBox="0 0 180 180" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <circle cx="90" cy="90" r="90" fill="#0D9D58"/>
+  <circle cx="90" cy="90" r="70" fill="white"/>
+  <circle cx="90" cy="90" r="50" fill="#FFCC00"/>
+  <text x="90" y="105" font-family="Arial" font-size="50" font-weight="bold" fill="white" text-anchor="middle">H</text>
+</svg>
