@@ -101,7 +101,7 @@ export default function HeroSection() {
               icon={<Globe className="h-5 w-5" />}
               label="Website"
               value="haarikainsurance services.com"
-              href="haarikainsuranceservices.com"
+              href="https://www.haarikainsuranceservices.com/"
               color="from-haarika-primary to-haarika-dark hover:from-haarika-dark hover:to-haarika-primary"
             />
             <ContactButton

@@ -16,5 +16,5 @@ export function middleware(request: NextRequest) {
 
 // Match all variants of /dvc (case-insensitive)
 export const config = {
-  matcher: ['/dvc', '/DVC', '/DvC', '/dVc', '/DVc', '/dvC', '/DvC', '/dVC'],
+  matcher: ['/dvc', '/DVC', '/DvC', '/dVc', '/DVc', '/dvC', '/dVC'],
 } 
