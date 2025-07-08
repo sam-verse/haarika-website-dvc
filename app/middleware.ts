@@ -4,17 +4,17 @@ import type { NextRequest } from 'next/server'
 export function middleware(request: NextRequest) {
   const { pathname } = request.nextUrl
 
-  // Redirect /dvc to /DVC (case-insensitive)
-  if (pathname.toLowerCase() === '/dvc' && pathname !== '/DVC') {
+  // If the path is any case-variant of /dvc, redirect to /DVC
+  if (pathname.length === 4 && pathname.toLowerCase() === '/dvc' && pathname !== '/DVC') {
     const url = request.nextUrl.clone()
     url.pathname = '/DVC'
     return NextResponse.redirect(url)
   }
 
-  // Allow all routes to continue (the page logic will show only the logo except /DVC)
   return NextResponse.next()
 }
 
+// Match all variants of /dvc (case-insensitive)
 export const config = {
-  matcher: ['/dvc', '/DVC'],
+  matcher: ['/dvc', '/DVC', '/DvC', '/dVc', '/DVc', '/dvC', '/DvC', '/dVC'],
 } 
