@@ -55,7 +55,7 @@ export default function HeroSection() {
             {/* Updated profile picture with new image */}
             <div className="relative w-36 h-36 md:w-48 md:h-48 mx-auto mb-6 rounded-full overflow-hidden border-4 border-white/30 shadow-lg transition-all duration-300 hover:shadow-md hover:border-haarika-primary/50">
               <Image
-                src="https://res.cloudinary.com/dlnwacm5j/image/upload/v1746376687/Bhoopathy_P_aekjng.png"
+                src="bhoopathy-p.png"
                 alt="Bhoopathy P"
                 fill
                 className="object-cover transition-all duration-300 hover:scale-105"
