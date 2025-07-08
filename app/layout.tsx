@@ -18,7 +18,7 @@ const montserrat = Montserrat({
 export const metadata: Metadata = {
   title: "Haarika Insurance - Protecting What Matters Most",
   description: "Modern insurance solutions for individuals and businesses. Get covered with Haarika Insurance today.",
-    generator: 'v0.dev'
+  
 }
 
 export default function RootLayout({
